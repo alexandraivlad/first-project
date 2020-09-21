@@ -1,0 +1,14 @@
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+  }
+
+
+body{
+    background-color:#9AECDB;
+    
+}
+#titlu{
+    font-family: 'DancingScript';
+    text-align:center;
+}
