@@ -5,10 +5,35 @@
 
 
 body{
-    background-color:#9AECDB;
+    background-color:#00cccc;
     
 }
+
+.butoaneMeniu{
+    display:block;
+    background-color:#e5e5ff;
+    border:0;
+    margin-bottom:15px;
+    padding: 10px 15px;
+    width:200px;
+    cursor: pointer;
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+.butoaneMeniu:hover{
+    background-color:#D6A2E8;
+
+}
+
 #titlu{
     font-family: 'DancingScript';
+    font-size: 35px;
     text-align:center;
+}
+
+.introducereText{
+    font-family: 'DancingScript';
+    font-size: 19px;
+    text-align:right;
+    margin:5px;
 }
