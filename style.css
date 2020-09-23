@@ -3,9 +3,13 @@
     src: url(fonts/DancingScript-VariableFont_wght.ttf);
   }
 
-
+  html {
+    scroll-behavior: smooth;
+   }
 body{
-    background-color:#00cccc;
+    /* background-color:#00cccc; */
+    background-color: #27ae60;
+   
     
 }
 
@@ -18,7 +22,10 @@ body{
     width:200px;
     cursor: pointer;
     font-family: OpenSans;
+    font-size:20px;
+    font-weight: 500;
     src: url(fonts/OpenSans-Regular.ttf);
+    border-radius:10px;
 }
 .butoaneMeniu:hover{
     background-color:#D6A2E8;
@@ -29,11 +36,55 @@ body{
     font-family: 'DancingScript';
     font-size: 35px;
     text-align:center;
+    
 }
 
 .introducereText{
     font-family: 'DancingScript';
-    font-size: 19px;
+    font-size: 20px;
     text-align:right;
     margin:5px;
+}
+
+.container{
+    display:flex;
+}
+#container1{
+    flex: 1;
+}
+#container2{
+    flex: 1;
+}
+#container3{
+    flex: 1;
+}
+#me{
+    display:block;
+    margin:0 auto;
+    border-radius: 15px;
+}
+#coperta{
+    display:block; 
+    margin: 0px auto;
+    border-radius: 25px;
+}
+
+
+.textOne{
+    display:flex;
+
+}
+#text1{
+    flex: 1;
+}
+#text11{
+    display:block;
+    flex:2;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family:'DancingScript';
+    margin:2px;
+}
+#text12{
+    flex:1;
 }
