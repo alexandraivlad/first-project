@@ -12,6 +12,7 @@ body{
    
     
 }
+/* Butoane meniu */
 
 .butoaneMeniu{
     display:block;
@@ -27,11 +28,16 @@ body{
     src: url(fonts/OpenSans-Regular.ttf);
     border-radius:10px;
 }
+.butoaneMeniu:focus{
+    outline: none;
+}
+
 .butoaneMeniu:hover{
     background-color:#D6A2E8;
 
 }
 
+/* Fontul pentru titlu, aliniere si size */
 #titlu{
     font-family: 'DancingScript';
     font-size: 35px;
@@ -87,4 +93,125 @@ body{
 }
 #text12{
     flex:1;
+}
+
+.poze{
+    display: flex;
+    
+}
+#poza1{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza2{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza3{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze1{
+    display: flex;
+    
+}
+#poza4{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza5{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza6{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze2{
+    display: flex;
+    
+}
+#poza7{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza8{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza9{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze3{
+    display: flex;
+    
+}
+#poza10{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza11{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza12{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze4{
+    display: flex;
+    
+}
+#poza13{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza14{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza15{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
 }
