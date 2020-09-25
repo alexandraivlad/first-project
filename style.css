@@ -215,3 +215,23 @@ body{
     justify-content:center;
     
 }
+.containerTabel{
+    display:flex;
+    margin:auto 0;
+    align-items:center;
+    justify-content:center;
+}
+
+#t01{
+    
+    border:1px solid black;
+    widows: 50%;
+    border-collapse: collapse;
+    flex: 0.5;
+    
+}
+.data{
+    border:1px solid black;
+    
+    
+}
